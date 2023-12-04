@@ -1,0 +1,306 @@
+@media (max-width:1336px) {
+    .cars-con{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin: auto;
+    }
+        .best{
+            background-color: black;
+            color: white;
+            padding: 100px;
+            display: flex;
+            justify-content: space-between;
+            width: 100% !important;
+        }
+        .best-car{
+            width: 100% !important;
+            padding: 0;
+            display: block;
+            text-align: center !important;
+        }
+       
+    
+}
+
+@media (max-width:1130px){
+    .cars-con{
+        display: block;
+        margin: auto !important;
+        width: 35%;
+    }
+    .cards-cars{
+        margin: auto;
+        background-color: black;
+    }
+}
+
+@media (max-width: 768px ) {
+
+    .search-bar{
+    
+        position: absolute;
+        padding: 40px;
+        float: left;
+        left: -5%;
+    
+    }
+
+    .menu-icon i{
+        position: absolute;
+        float: left;
+        left: 60%;
+        padding: 5px 15px;
+        color: white;
+        z-index: 1;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+    #img{
+        width: 100%;
+    }
+
+
+
+    .titles p:first-child{
+        margin-top: -100px;
+        font-size: 2.5rem;
+        width: 100%;
+    }
+
+    .titles p:nth-child(2) , .titles p:nth-child(3){
+        width: 100%;
+
+    }
+
+   .instrucions{
+    padding: 60px 0;
+   }
+
+    .cards{
+        display: block ;
+    }
+
+    .mycard{
+        margin-top: 100px;
+        width: 70%;
+    }
+    .mycard p{
+        width: 100%;
+        text-align: center;
+    }
+    .ins{
+        display: block;
+    }
+    .left-side{
+        width: 100%;
+        text-align: center;
+        padding: -20px !important;
+    }
+    .left-side p:first-child{
+        width: 100%;
+        padding: 0 !important;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .right-side{
+        transform: translateX(0%);
+        background-color: rgb(243, 147, 3);
+        text-align: center;
+        align-items: center;
+        width: 110%;
+    }
+
+    .right-side p:first-child{
+        font-weight: bold;
+        font-size: 1.1rem; 
+       
+        margin: auto;
+    }
+    .right-side ol{
+        width: 100%;
+        font-weight: bold;
+        font-size: 1.1rem; 
+        transform: translateX(-5%);
+       
+    }
+
+    .cars-con{
+        
+        padding-top: 150px;
+        display: block;
+        margin: auto;
+    }
+
+    .cars-con img{
+      margin-top: 30px;
+      width: 100% !important;
+    
+    }
+    .cards-cars{
+        width: 100%;
+        margin: auto;
+    }
+    .cards-cars div{
+        width: 100%;
+    }
+    .cards-cars img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        margin-top: 20px;
+        margin: auto;
+       
+    }
+
+    .best{
+        width: 100%;  
+        display: block;
+        
+    }
+
+    .best-right{
+        width: 100%;
+        
+     
+        text-align: center;
+        font-size: 2.4rem;
+        text-align: center;
+    }
+    .good-hand{
+        margin-top: 20px;
+        text-align: center;
+        border: 2px solid white;
+        border-radius: 10px;
+        padding: 10px;
+        padding-top: 20px;
+        align-items: center;
+    }
+
+    .best-car{
+        width: 100%;
+        display: block;
+        padding: 40px;
+    }
+
+    .left-best p:first-child{
+        width:  90% !important;
+        font-weight: bold;
+        font-size: 2rem;
+        text-align: center;
+        text-decoration: none;
+    } 
+
+    .left-best p{
+        text-align: center;
+        padding-top: 20px;
+        font-size: 1.1rem;
+        width: 100% !important;
+        text-decoration: underline !;
+    }
+    .left-best p{
+        font-size: 1.1rem;
+        text-decoration: none;
+    }
+    .left-best p:nth-child(3){
+        padding: 10px;
+    }
+
+    .best-car img{
+        object-fit: cover;
+        width: 270px;
+        height: 270px;
+        border-radius: 50%;
+        /* transform: translateX(10%); */
+        display: block;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .faq{
+        padding: 20px 20px;
+    }
+    .safe div{
+        padding-top: 40px;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .safe p{
+        display: block;
+        width: 20rem;
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        margin: auto;
+        
+    }
+
+    .safe img{
+        width: 100%;
+        height: 405;
+        padding-top: -10px;
+        border-radius: 25px;
+    }
+
+    .contact{
+        display: block;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
+    .contact-left p{
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .email{
+        display: block;
+        margin: auto;
+
+    }
+    form{
+        display: inline-block;
+        
+        width: 100%;
+        margin: auto;
+        padding: 30px;
+
+    }
+    form input{
+        background-color: #000000;
+        color: white;
+        width: 100%;
+        border: none;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: .8rem;
+        margin: auto;
+        margin-top: 20px;
+       
+        
+    }
+    form input:focus{
+        background-color: #000000;
+        border: 1px solid white;
+   
+    }
+    textarea{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px !important;
+        width: 100%;
+        height: 7rem;
+    }
+
+
+
+
+
+
+}

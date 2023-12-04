@@ -1,0 +1,654 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+:root{
+    --org: #f17c0e;
+    
+}
+
+::selection{
+    color: white;
+    background-color: #f17c0e;
+}
+
+.header{
+    position: relative;
+    z-index: 3;
+}
+
+
+
+.header img{
+   
+    height: 900px;
+    object-fit: cover;
+    filter: brightness(0.8);
+}
+
+.search-bar{
+   
+}
+.search-bar ul{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.search-bar ul li{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-left: 20px;
+    
+   
+}
+.titles{
+    position: absolute;
+    top: 420px;
+    margin: auto;
+    color: yellow;
+    text-align: center;
+    z-index: 200;
+
+}
+
+.titles p:first-child{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-weight: 400;
+}
+
+.titles p:nth-child(1){
+    padding: 1rem;
+    width: 58%;
+    margin: auto;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.titles p:nth-child(2){
+    padding: 1rem;
+    width: 58%;
+    margin: auto;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+}
+
+.titles p:nth-child(3){
+    padding: 1rem;
+    width: 58%;
+    margin: auto;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(255, 187, 0);
+}
+
+
+
+.insurance{
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    
+    
+}
+.insurance p{
+    padding-top: 3rem;
+    color: white;
+    font-size: 2.4rem;
+    font-weight: bold;
+    
+}
+.insurance p:last-child{
+    font-size: 1rem;
+    color: white;
+}
+
+.cards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 3rem;
+    margin: auto;
+    background-color: black;
+    
+}
+
+
+
+.card{
+
+    text-align: center;
+    margin: auto;
+
+}
+.mycard{
+    width: 400px;
+    text-align: center;
+    font-size: 1.4rem;
+    margin: auto;   
+}
+
+.mycard p {
+    color: white;
+    font-weight: 100;
+}
+
+.mycard p:last-child{
+   
+    font-size: .8rem;
+    color: rgb(201, 201, 201);
+    font-weight: 100;
+}
+
+
+.mycard i{
+    color: rgb(255, 187, 0);
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 60px;
+ 
+}
+
+.mycard p:last-child{
+    border: 2px solid rgb(255, 187, 0);
+    padding: 7px 10px;
+    margin: auto;
+    margin-top: 40px;
+    color:rgb(255, 187, 0) ;
+    border-radius: 25px;
+    width: 200px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.4s;
+    font-size: .8rem;
+    
+}
+.mycard p:last-child:hover{
+    background-color: rgb(255, 187, 0);
+    color: black;
+}
+
+.instrucions{
+    color: white;
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    position: relative;
+    padding-top: 150px;
+  
+}
+.ins{
+   
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 60px;
+    width: 60%;
+    margin: auto;
+    
+
+}
+
+.left-side{
+    margin: auto;
+    font-weight: 100;
+    
+}
+.left-side p:first-child{
+    font-size: 2rem; 
+    font-weight: bold;
+}
+
+.right-side{
+    margin: auto;
+    background-color: rgb(243, 147, 3);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: 16px;
+    align-items: center;
+}
+
+.right-side p:first-child{
+    font-weight: bold;
+    font-size: 1.1rem; 
+}
+
+.right-side li{
+    padding-bottom: 0.8rem;
+
+}
+
+.cards-cars{
+    margin: auto;
+    background-color: black;
+}
+
+.cars-con{
+    width: 70%;
+    padding-top: 150px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+}
+
+.cars-con div{
+   
+    overflow: hidden;
+    border-radius: 15px; 
+}
+
+@media (min-width:769px) {
+    .cars-con div{
+        width: 350px;
+        height: 260px;
+        overflow: hidden;
+        border-radius: 15px; 
+    }
+}
+
+
+
+.cards-cars img{
+    
+    object-fit: cover;
+   
+}
+
+@media (min-width:769px) {
+    .cards-cars img{
+        width: 350px;
+        height: 260px;
+        object-fit: cover;
+       
+    }
+}
+
+.best{
+    background-color: black;
+    color: white;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width:769px) {
+    .best{
+        padding: 100px 300px;
+    }
+}
+
+.best-right{
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+
+.good-hand{
+    margin-top: 200px;
+    font-size: 2rem;
+}
+
+.org{
+    color: rgb(243, 147, 3);
+    font-weight: bold;
+}
+
+
+.best-car{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0px;
+}
+
+@media (min-width:768px) {
+    .best-car{
+        padding: 0 300px;
+    }
+}
+
+
+.best-car img{
+    object-fit: cover;
+    width: 470px;
+    height: 470px;
+    border-radius: 50%;
+}
+
+
+.left-best p:first-child{
+    font-weight: bold;
+    font-size: 2rem;
+    width: 70%;
+}
+
+.left-best p:nth-child(2){
+    padding-top: 20px;
+    font-size: 1.1rem;
+    width: 70%;
+    text-decoration: underline;
+}
+
+.left-best p:nth-child(3){
+    padding: 20px 0;
+    font-size: 1rem;
+    font-weight: 100;
+    width: 70%;
+    border-radius: 10px;
+    background-color: var(--org);
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+.left-best p:nth-child(4){
+    padding-top: 20px;
+    font-size: 0.8rem;
+    font-weight: 100;
+    width: 75%;
+}
+
+.faq{
+    background-color: black;
+    color: white;
+    margin: auto;
+    
+    text-align: center;
+}
+@media (min-width:768px) {
+    .faq{
+        background-color: black;
+        color: white;
+        margin: auto;
+        padding: 200px 400px;
+        text-align: center;
+    }
+}
+
+.faq p:first-child{
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+.faq p:nth-child(2){
+   color: #ff9939
+    
+}
+
+
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.voprosnik {
+width: 80%;
+margin: 100px auto;
+}
+
+
+
+.voprosnik h3 {
+text-align: center;
+font-family: "Roboto", sans-serif;
+font-weight: bold;
+}
+
+.klundesaga-item {
+background-color: black;
+margin-bottom: 20px;
+
+
+color: #ffffff;
+border-bottom: 1px solid white;
+
+}
+
+
+
+.klundesaga-item .klundesaga-title {
+cursor: pointer;
+padding: 20px;
+transition: transform 0.4s ease-in-out;
+}
+
+.klundesaga-item .klundesaga-title.active-title {
+background-color: #f17c0e;
+color: #ffffff;
+}
+
+.klundesaga-item .klundesaga-title h3 {
+font-weight: 100;
+margin: 0;
+font-size: 1.2rem;
+display: flex;
+justify-content: space-between;
+
+}
+
+.klundesaga-item .klundesaga-title i.fa-chevron-down {
+transform: rotate(0);
+transition: 0.4s;
+}
+
+.klundesaga-item .klundesaga-title i.fa-chevron-down.chevron-top {
+transform: rotate(-180deg);
+color: #ffffff;
+}
+
+.klundesaga-item .klundesaga-content {
+display: none;
+line-height: 1.7;
+padding: 20px;
+background-color: #000000;
+border-radius: 0 0 5px 5px;
+color: #ffffff;
+}
+
+.klundesaga-item .klundesaga-content.active {
+display: block;
+}
+
+.klundesaga-item .klundesaga-content p {
+margin: 0;
+font-family: "Nunito Sans", sans-serif;
+font-size: 16px;
+}
+
+.sadelpos {
+background: #dce1f2;
+}
+
+.sadelpos .detailed_info {
+margin: 50px auto;
+}
+
+.sadelpos img {
+margin: 0 auto;
+display: block;
+/* margin-top: 120px; */
+}
+
+.sadelpos h3 {
+font-family: "Poppins", sans-serif;
+font-weight: bold;
+font-size: 20px;
+}
+
+.sadelpos p {
+font-family: "Nunito Sans", sans-serif;
+font-size: 16px;
+line-height: 1.5em;
+}
+
+.sadelpos ul li {
+font-family: "Nunito Sans", sans-serif;
+font-size: 16px;
+line-height: 1.7em;
+}
+
+.safe{
+   background-color: #000000;
+   
+}
+
+.safe div{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+}
+
+.safe p{
+    width: 30rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.safe img{
+    width: 760px;
+    height: 405;
+    border-radius: 25px;
+}
+
+.contact-container{
+    background-color: #000000;
+    padding: 5rem;
+    
+    color: white;
+    
+
+
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+.contact-left p{
+    width: 80%;
+    font-size: 1rem;
+}
+
+.contact-left p:nth-child(1){
+   font-size: 1.4rem;
+   font-weight: 100 !important;
+}
+
+
+.contact-left p:nth-child(2){
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+form{
+    display: grid;
+    margin: auto;
+    padding: 30px;
+}
+
+form input{
+    background-color: #000000;
+    color: white;
+  
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin: 20px;
+}
+
+@media (min-width:768px) {
+    form input{
+        background-color: #000000;
+        color: white;
+        width: 25rem;
+        border: none;
+        border-bottom: 2px solid white;
+        padding: 10px;
+        font-size: 1.2rem;
+        margin: 20px;
+    }
+}
+
+
+form input:focus{
+    background-color: #000000;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+}
+
+
+
+form input::placeholder{
+    color: rgb(145, 145, 145);
+    font-weight: 100;
+
+}
+
+textarea{
+    padding: 1rem;
+    margin: auto;
+    background-color: #000000;
+    color: white;
+    border-radius: 15px;
+    outline: 1px solid white;
+    height: 10rem;
+}
+
+form button{
+    text-align:center ;
+    width: 100%;
+    margin: auto;
+    padding: 7px 10px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color:#ff9939;
+    margin-top: 20px;
+}
+
+.social{
+    margin-top: 30px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.social i{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.social i:hover{
+    transform: translateY(-10px) ;
+    color: #ff9939;
+    
+}
+
+.email{
+  
+}
